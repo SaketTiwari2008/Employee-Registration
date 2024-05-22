@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon image.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Company HR Portal</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Welcome to company HR Portal</h1>
+        <nav>
+            <ul>
+                <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+                <li class="navitem"><a href="#employee-directory">Employee Directory</a></li>
+                <li class="navitem"><a href="#contact-us">Contact US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <image src="./images//image.png" class="centerimage" width="600" alt="web image"></image>
+    <section id="employee-registration" class="registerform">
+        <h2>Employee Registration</h2>
+        <p>Fill the below form to register as <em>employee.</em></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age"><br><br>
+            <label for="role">Select role:</label>
+            <select>
+                <option>Software Enginner</option>
+                <option>Product Manager</option>
+                <option>Deginer</option>
+                <option>HR representative</option>
+            </select><br><br>
+            <label for="joiningdate">Select joining date:</label>
+            <input type="date" id="joiningdate"><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
+
+    <section id="employee-directory" class="employeetable">
+        <h2>Employee Directory</h2>
+        <p>Directory of all registered employees.</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Role</th>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Jai Dixit</td>
+                <td>Software Enginner</td>
+            </tr>
+            <tr>
+                <td>289</td>
+                <td>Roxy Gupta</td>
+                <td>Product Manager</td>
+            </tr>
+            <tr>
+                <td>276</td>
+                <td>Naina Aggarwal</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact-us" class="contact-us">
+        <h2>Contact us</h2>
+        <p>You can contact us at company@official.com or visit us between 9AM - 6PM.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8041686171155!2d77.7014805748416!3d12.984373787332133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176568fa49e7%3A0xc14ffe9b3aa1a72f!2sMicrosoft%20Luxor%20North%20Tower!5e0!3m2!1sen!2sin!4v1715377959604!5m2!1sen!2sin" width="400"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/saket-tiwari-639623290" target="_blank">https://www.linkedin.com/in/saket-tiwari-639623290</a></p>
+
+        <p>&copy; 2023 @Saket technical</p>
+    </footer>
+</body>
+</html>
