@@ -18,6 +18,8 @@ header,footer{
 .navitem a{
     text-decoration: none;
     color: aliceblue;
+    display:flex;
+    justify-content: space-around;
 }
 
 .registerform{
